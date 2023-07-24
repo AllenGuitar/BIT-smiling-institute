@@ -1,10 +1,15 @@
 .bg-image-1{
     background: url("assets/images/image-12.jpg");
-    background-size: 100%;
-    background-position: 0 -20rem;
+    background-size: cover;
+    background-position: center;
     height: 1000px;
+    background-repeat: no-repeat;
 }
 
 .overlay{
     background: #000000b9;
+}
+
+@media (max-width: 768px){
+
 }
